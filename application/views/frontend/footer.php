@@ -3,18 +3,16 @@
         <div class="row">
           <div class="col-lg-12">
             <ul class="social-icons">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Linkedin</a></li>
-              <li><a href="#">Dribbble</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">MLM Database</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
           <div class="col-lg-12">
             <div class="copyright-text">
-              <p>Copyright 2020 Stand Blog Co.
-                    
-                 | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a></p>
+              <p>Copyright 2020 MarvyTech</p>
             </div>
           </div>
         </div>
@@ -22,8 +20,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url();?>assets/frontend/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>assets/frontend/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
     <script src="<?php echo base_url();?>assets/frontend/js/custom.js"></script>

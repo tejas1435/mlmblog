@@ -18,3 +18,8 @@ $route['comments/create'] = 'comments/create';
 $route['404_override'] = '';
 $route['(:any)'] = 'pages/view/$1';
 $route['translate_uri_dashes'] = FALSE;
+
+// Frontend pages
+$route['home/index'] = 'frontend/home/index';
+$route['about/index'] = 'frontend/about/index';
+$route['contactus/index'] = 'frontend/contactus/index';

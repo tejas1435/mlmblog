@@ -17,9 +17,9 @@ class Posts extends CI_controller
 
     $data['posts'] = $this->post_model->get_posts(FALSE , $config['per_page'] ,$offset );
 
-    $this->load->view('templates/header');
-    $this->load->view('posts/index' , $data);
-    $this->load->view('templates/footer');
+    $this->load->view('frontend/header');
+    $this->load->view('frontend/home' , $data);
+    $this->load->view('frontend/footer');
   }
 
   public function view($slug = NULL){

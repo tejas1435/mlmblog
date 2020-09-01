@@ -12,7 +12,7 @@
     <title>Stand CSS Blog by TemplateMo</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>assets/frontend/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -51,21 +51,19 @@ https://templatemo.com/tm-551-stand-blog
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
+                <a class="nav-link" href="<?php echo base_url(); ?>home/index">Home</a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>about/index">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog Entries</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>mlm_database">Blog Entries</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="post-details.html">Post Details</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>blog">Post Details</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>contactus/index">Contact Us</a>
               </li>
             </ul>
           </div>
